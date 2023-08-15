@@ -7,8 +7,7 @@
       </div>
       <div class="login-form">
         <div class="login-logo">
-          <img class="login-icon" src="@/assets/images/logo.svg" alt="" />
-          <h2 class="logo-text">Geeker-Admin</h2>
+          <h2 class="logo-text">{{ PROJECT.name }}</h2>
         </div>
         <LoginForm />
       </div>
@@ -19,6 +18,7 @@
 <script setup lang="ts" name="login">
 import LoginForm from "./components/LoginForm.vue";
 import SwitchDark from "@/components/SwitchDark/index.vue";
+import { PROJECT } from "@/config";
 </script>
 
 <style scoped lang="scss">

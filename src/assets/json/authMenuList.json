@@ -16,6 +16,20 @@
       }
     },
     {
+      "path": "/custom",
+      "name": "Custom",
+      "component": "/custom/index",
+      "meta": {
+        "icon": "Histogram",
+        "title": "Custom",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
       "path": "/dataScreen",
       "name": "dataScreen",
       "component": "/dataScreen/index",

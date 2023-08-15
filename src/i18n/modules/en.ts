@@ -1,7 +1,8 @@
 export default {
-  home: {
-    welcome: "Welcome"
-  },
+  welcome: "Welcome",
+  goodMorning: "Good morning",
+  goodAfternoon: "Good afternoon",
+  goodEvening: "Good evening",
   tabs: {
     refresh: "Refresh",
     maximize: "Maximize",

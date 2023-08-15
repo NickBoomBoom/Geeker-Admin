@@ -42,7 +42,9 @@ import { initDynamicRouter } from "@/routers/modules/dynamicRouter";
 import { CircleClose, UserFilled } from "@element-plus/icons-vue";
 import type { ElForm } from "element-plus";
 import md5 from "md5";
+import { useI18n } from "vue-i18n";
 
+const i18n = useI18n();
 const router = useRouter();
 const userStore = useUserStore();
 const tabsStore = useTabsStore();
@@ -83,7 +85,7 @@ const login = (formEl: FormInstance | undefined) => {
       router.push(HOME_URL);
       ElNotification({
         title: getTimeState(),
-        message: "欢迎登录 Geeker-Admin",
+        message: i18n.t("welcome"),
         type: "success",
         duration: 3000
       });

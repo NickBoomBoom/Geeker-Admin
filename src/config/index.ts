@@ -17,3 +17,10 @@ export const AMAP_MAP_KEY: string = "";
 
 // 百度地图 key
 export const BAIDU_MAP_KEY: string = "";
+
+// 项目基本信息
+export const PROJECT = {
+  name: "FE-ADMIN",
+  footer: "2022 © FE-Admin By Geeker Technology.",
+  footerUrl: ""
+};

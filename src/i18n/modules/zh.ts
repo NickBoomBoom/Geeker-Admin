@@ -1,7 +1,8 @@
 export default {
-  home: {
-    welcome: "欢迎使用"
-  },
+  welcome: "欢迎使用",
+  goodMorning: "早上好",
+  goodAfternoon: "下午好",
+  goodEvening: "晚上好",
   tabs: {
     refresh: "刷新",
     maximize: "最大化",
